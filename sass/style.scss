@@ -1,0 +1,38 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color:lightblue;
+
+body {
+    background-color: $background-color;
+}
+
+.card {
+    margin-bottom: 30px;
+
+    .card-body {
+        h6.card-title {
+            color: $primary-color;
+        }
+        
+        .btn-toggle {
+            color: $secondary-color;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.row {
+    padding-left: 2em;
+}
+
+.card-img-top {
+    width: 50%;
+}
+
+img {
+    width : 250 ;
+    height : 250
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: lightblue;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+.card .card-body h6.card-title {
+  color: #007bff;
+}
+.card .card-body .btn-toggle {
+  color: #6c757d;
+  cursor: pointer;
+}
+.card .card-body .btn-toggle:hover {
+  text-decoration: underline;
+}
+
+.row {
+  padding-left: 2em;
+}
+
+.card-img-top {
+  width: 50%;
+}
+
+img {
+  width: 250;
+  height: 250;
+}
